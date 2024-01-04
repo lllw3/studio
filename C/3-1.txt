@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main（）
+{
+     int x,y;
+     printf("请输入一个正整数：\n");
+     scanf("%d",&x);
+     printf("%d的平方根：%d\n",x,y=sprt(x));
+     return 0;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #box0{
+            width: 550px;
+            height: 100px;
+            border: 1px solid orange;
+        }
+        p{
+            width: 550px;
+            height: 19px;
+            border-bottom: 1px dashed black;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        #box1{
+            width: auto;
+            height: 30px;
+            background-color: rgb(53, 49, 49);
+        }
+        ul{
+            margin-top: 2px;
+        }
+        ul li{
+            display: inline;
+            list-style-type: none;
+            color: rgb(214, 221, 214);
+            line-height:17px;
+            border-right:1px solid #666;
+            padding:0px 5px; 
+            font-size: 10px;
+        }
+        #theThirdItem{ 
+            border-width:0px;
+        }
+        ul li.lastItem1{ 
+            border-width:0px;
+        }
+        ul li.lastItem2{
+            border-width:0px; 
+            margin-right: 50px;
+            margin-left: 30px;
+            padding-left: 20px;
+            background-color: rgb(194, 185, 185);
+            background-image: url("OIP.jpg");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 1rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="box0">
+        <p id="p1">
+            <b style="float: left;">于洋怒摔毛巾</b>
+            <b style="float: right;">2016年8月18日</b>
+        </p>
+        <p id="p2">
+            <b style="float: left;">跳水十米台中国包揽金银牌</b>
+            <b style="float: right;">2016年8月18日</b>
+        </p>
+        <p id="p3">
+            <b style="float: left;">中国队4*100米接力申诉失败</b>
+            <b style="float: right;">2016年8月19日</b>
+        </p>
+    </div>
+    <br/>
+    <div id="box1">
+        <ul style="float: left;">
+            <li>小米商城</li>
+            <li>MIUI</li>
+            <li>loT</li>
+            <li>云服务</li>
+            <li>金融</li>
+            <li>有品</li>
+            <li>小爱开放平台</li>
+            <li>政企服务</li>
+            <li class="lastItem1">Select Region</li>
+        </ul>
+        <ul style="float: right;">
+            <li>登录</li>
+            <li>注册</li>
+            <li id="theThirdItem">消息通知</li>
+            <li class="lastItem2">购物车(0)</li>
+        </ul>
+    </div>
+</body>
+</html>

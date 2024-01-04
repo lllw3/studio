@@ -1,0 +1,646 @@
+一、单选题
+1.如下代码，会弹出来是什么 var num1=“1” ;var num2=1 alert(num1-num2);
+A 0
+
+B 11
+
+C 1+1
+
+D 报错
+
+
+2.如下代码，会弹出来是什么 var num1=“hi” var num2=1 alert(num1+num2);
+A hi1
+B 1
+C hi
+D 报错
+
+
+3.在JS中，“1555”+3的运行结果是
+A 1558
+
+B 1552
+
+C 15553
+
+D 1553
+
+
+4.parseInt(“20.2aa”) 返回值为
+
+A 20
+
+B 20.2
+
+C 20.2aa
+
+D NaN
+
+
+5.分析输出结果是
+
+function sum(a){ a = a + 2; }
+
+var res = sum(2);
+
+console.log(res);
+
+A 2
+
+B 4
+
+C NaN
+
+D undefined
+
+
+6.var a = false;
+
+var x = a? “A” : “B”;
+
+最终x的值为
+
+A A
+
+B B
+
+C true
+
+D false
+
+7.下列变量名合法的是
+
+A 5show
+
+B return
+
+C $user
+
+D var
+
+
+8.需要在 html 页面上引用脚本文件myJs.js，下列语句中，正确的是
+A
+
+B
+
+C
+
+D
+
+
+9.代码的输出结果是
+
+var a = 3;
+
+var b = 2;
+
+var c = (a+2)/b;
+
+document.write（c）;
+
+A 2.0
+
+B 2.5
+
+C 16.0
+
+D (3+2)/2
+
+
+10.代码的输出结果是
+
+function add(){
+var sum = 1 + 2 ;
+
+console.log( sum ) ;
+
+}
+
+console.log(sum) ;
+
+A 输出两个3
+
+B 输出一个3
+
+C 程序报错
+
+D 输出一个undefined
+
+
+
+11.typeof null 检测出来的数据类型是
+
+A null
+
+B number
+
+C object
+
+D undefined
+
+
+12.parseInt(“12a”)的结果是
+
+A NaN
+
+B 12a
+
+C 0
+
+D 12
+
+
+13.下列的哪一个表达式将返回假
+
+A !(3<=1)
+
+B (4>=4)&&(5<=2)
+
+C 2<3
+
+D (2<3)||(3<2)
+
+
+14.关于循环下列说法正确的是
+
+A while循环至少会运行一次
+
+B do…while循环至少会运行一次
+
+C for循环至少会运行一次
+
+D switch循环至少会运行一次
+
+
+15.for(var i = 0; i < 10; i++){ i++; }
+
+console.log(i)的值是？
+
+A 10
+
+B 9
+
+C undefined
+
+D 7
+
+
+16.下面代码的执行结果为
+
+var a = 20;
+
+function foo(){
+console.log(a) ;
+
+var a = 10 ;
+
+console.log(a) ;
+
+}
+
+foo();
+
+A 20 10
+
+B 10 10
+
+C 20 20
+
+D undefined 10
+
+
+
+17.有下述JS代码：
+
+var x = 10; var y = 20;
+
+var z = x<y ? x++ : ++y ;
+
+console.log( ‘x=’ + x + ‘; y=’ + y + ‘; z=’ + z);
+
+其运行结果是
+
+A x=11; y=21; z=11
+
+B x=11; y=20; z=10
+
+C x=11; y=21; z=10
+
+D x=11; y=20; z=11
+
+
+18.查看如下代码：
+
+function f1( ){
+console.log(x);
+
+var x = 10;
+1
+2
+3
+++x;
+
+console.log(x);
+
+}
+
+f1();
+
+执行后的结果是
+
+A 程序错误
+
+B undefined 和 10
+
+C undefined 和 11
+
+D 10 和 11
+
+
+
+19.引用名为"xxx.js"的外部脚本的正确语法是
+
+A
+
+B
+
+C
+
+D
+
+
+20.如下代码，会弹出来是什么 var a; alert(a);
+
+A 报错
+
+B a is not define
+
+C undefined
+
+D 0
+
+
+
+21.如下代码，会弹出来是什么 alert(a);var a=12;
+
+A 报错
+
+B a is not define
+
+C undefined
+
+D 12
+
+
+
+22.JavaScript的组成不包括
+A ECMAScript
+B DOM
+C BOM
+D document
+
+
+23.console.log( typeof 123 === “number”)
+
+A 报错
+
+B true
+
+C false
+
+D 123
+
+
+
+24.代码的输出结果是
+
+function fnMax(a,b,c){
+var a,b,c;
+
+var max = a > b ? a : b;
+
+if(c > max){ max = c; }
+
+alert(max);
+1
+2
+3
+4
+5
+6
+7
+}
+
+fnMax(8,2,5);
+
+A 5
+
+B 2
+
+C 8
+
+D 10
+
+
+
+25.以下哪项不属于javascript的特征
+
+A Javascript是一种脚本语言
+
+B Javascript是事件驱动的
+
+C Javascript代码需要手动编译以后才能执行
+
+D Javascript是独立于平台的
+
+
+26.如下代码，会弹出来是什么 var num1=“1” ;var num2=1 alert(num1-num2);
+
+A 0
+
+B 11
+
+C 1+1
+
+D 报错
+
+
+
+27.console.log(typeof typeof 123456)，在控制台中打印什么内容
+
+A 123456
+
+B number
+
+C string
+
+D object
+
+
+
+28.console.log( (2==true)+1 )会弹出
+A true
+B false
+C 1
+D 2
+
+29.如下代码，会弹出来是什么 var num1=“1”; var num2=1 alert(num1+num2)
+
+A 2
+
+B 11
+
+C 1+1
+
+D 报错
+
+
+
+30.下列表达式结果为false的是
+
+A !""
+
+B !{}
+
+C !undefined
+
+D !!5
+
+
+
+31.将网页上传到 Internet 时通常采用 FTP 方式。()
+
+ 对
+ 错
+
+32.所有的 html 标记符都包括开始标记符和结束标记符。()
+
+ 对
+ 错
+
+
+33.用h1标记符修饰的文字通常比用 h6 标记符修饰的要小。
+
+ 对
+ 错
+
+34.html 表格在默认情况下有边框。
+ 对
+ 错
+
+二、多选题(不定项选择)
+1.下面哪些是循环语句
+A while
+B do…while
+C for
+D switch
+
+
+2.下面哪些属于选择结构控制语句:
+
+A if
+B for
+C switch
+D while
+
+
+3.下面选项中数据类型为数字类型的有
+A “1”
+B 1
+C true
+D NaN
+
+
+
+4.下面语句得到值为true的有
+A “1” == 1
+B 1===“1”
+C “2” > “19”
+D “2”==19
+
+5.下面语句得到值为数字2的有
+
+A 1 + ‘1’
+
+B 8 % ‘3’
+
+C ‘1’ + ‘1’
+
+D ‘4’ - 2
+
+
+
+
+6.下面哪些是关键字
+A var
+B function
+C case
+D 以上都是关键字
+
+7.以下是JavaScript基本数据类型的是
+A Object
+B number
+C string
+D boolean
+
+
+
+8.以下运算符正确的是
+
+A ++
+
+B –
+
+C &&
+
+D >=
+
+
+
+9.JavaScript运算符都有哪些
+
+A 赋值运算符
+
+B 算术运算符
+
+C 关系运算符
+
+D 逻辑运算符
+
+
+
+10.JavaScript的基本组成包括
+
+A DOM
+
+B BOM
+
+C jQuery
+
+D ECMAScript
+
+
+11.以下哪些属于循环语句
+
+A switch
+
+B for
+
+C while
+
+D do…while
+
+
+
+12.函数的参数分为
+
+A 形参
+
+B 实参
+
+C 有参
+
+D 无参
+
+
+
+13.以下哪些属于基本数据类型
+
+A object
+
+B boolean
+
+C string
+
+D number
+
+
+
+14.函数中实参可以是
+
+A 常量
+
+B 变量
+
+C 只能是变量
+
+D 只能是常量
+
+
+
+15.逻辑运算符有
+
+A >
+
+B <
+
+C ||
+
+D &&
+
+
+
+16.javascript由哪几部分组成
+
+A js
+
+B ECMAScript
+
+C DOM
+
+D BOM
+
+
+
+17.下面声明变量及赋值的写法正确的有
+
+A var _myName = 12a
+
+B var _myName = “12a”
+
+C var myName = 12
+
+D var $myName = true
+
+
+下面哪些方法可以实现将字符串"123"，变成数值型
+
+A Number()
+
+B parseInt()
+
+C parseFloat()
+
+D Boolean()
+
+
+
+19.下面哪些属于关系运算符？
+
+A >
+
+B >=
+
+C <
+
+D <=
+
+
+
+20.下面哪些属于逻辑运算符？
+
+A &&
+
+B ||
+
+C !
+
+D 以上都不正确
+
+
+
+二、问答题
+(1)什么是Bom，什么是Dom?你如何理解Dom?
+（2）说说BOM与DOM的关系
+

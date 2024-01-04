@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>账号：</label>
+        <input type="text" placeholder="最少六个字符">
+    </div>
+    <div>
+        <label>密码：</label>
+        <input type="password" placeholder="请填写密码">
+    </div>
+    <div>
+        <label>性别：</label>
+        <select style="width: 164.8px;">
+            <option></option>
+            <option value="0" title="man">男</option>
+            <option value="1" title="women">女</option>
+        </select>
+    </div>
+    <div>
+        <label>年龄：</label>
+        <select id="age" style="width: 164.8px;">
+            <option selected hidden disabled value="">填写年龄</option>
+        </select>
+    </div>
+    <div>
+        <label>月薪:</label>
+        <input type="range" id="range" min="1000" max="10000" value="7000" oninput="change()">
+        <input type="number"id="show" oninput="change1()" style="border: none;">
+    </div>
+    <button value="提交">提交</button>
+    <div>
+        <audio src="F:\ProgramLearn\learnweb\阿保剛 - Believe Me.mp3" controls="controls">不行哦</audio>
+    </div>
+</body>
+<script>
+    onload=function(){
+        var year=new Date().getFullYear();
+        var age=document.getElementById("age");
+        for(var i=2000;i<year+3;i++){
+            var option=document.createElement("option");
+            option.value=i;
+            var txt=document.createTextNode(i);
+            option.appendChild(txt);
+            age.appendChild(option);
+        }
+    }
+    function change(){
+        var num=document.getElementById("range");
+        var location=document.getElementById("show");;
+        location.value=num.value;
+    }
+    function change1(){
+        var num=document.getElementById("range");
+        var location=document.getElementById("show");;
+        num.value=location.value;
+    }
+
+</script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    //第一题
+    document.write("hei");
+    console.log("hi");
+    function warn_on_submit(){
+        alert("hello");
+    }
+    //第二题
+    var sum=(123+45*78)/(34+543)-9*(324-34);
+    console.log(sum);
+    //第三题
+    function prompt_on_submit(){
+        var num=prompt("请输入鸡蛋数目");
+			if(num%20==0){
+				backet=num/20;
+			}
+			else{
+				backet=num/20-num/20%1+1;
+			}
+			console.log("你的鸡蛋数是"+num+"\n"+"您需要"+backet+"个篮子");
+    }
+    //第四、五题
+    function confirm_on_submit(){
+        var a =prompt("请输入一个三位数");
+	    var b = parseInt(a%10);
+	    var c = parseInt((a%100)/10);
+	    var d = parseInt(a/100);	
+        var sum = b+c+d;
+        console.log("个位数是"+b+"十位数是"+c+"百位数是"+d);
+	    alert("输入的三位数的位数之和为"+sum);
+    }
+</script>
+<body>
+    <br/>
+    <input type="button" value="alert" onclick="warn_on_submit();">
+    <input type="button" value="prompt" onclick="prompt_on_submit();">
+    <input type="button" value="confirm" onclick="confirm_on_submit();">
+</body>
+</html>

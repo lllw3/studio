@@ -1,0 +1,54 @@
+1、下列表示鼠标单击事件的是(     B   )
+A、onchange              B、onclick
+C、onfocus               D、onmouseover
+
+2、CSS样式中的padding属性表示（         ）
+A、页边距    B、边框宽度     C、内填充距离        D、高度
+
+3、无序列表标签是（      ）
+A、<ol>           B、<ul>         C、<dl>     C、<li>
+
+3、<img>标签中表示图片地址的属性是（      ）
+A、file      B、page    C、href          D、src
+
+5、a:visited表示（   ）
+A、没被单击过的链接                B、被激活的链接
+
+C、被访问过的链接                  D、鼠标经过的链接
+
+6、onclick事件表示（      ）
+A、提交表单事件                 B、单击按钮事件 
+
+C、添加表单数据事件             D、修改表单数据事件
+
+7、嵌入样式表是在html标签的（      ）属性值中添加CSS规则
+A、class           B、style             C、link           D、color
+
+8、JavaScript文档的扩展名为（    ）
+A、jsp           B、js         C、JavaScript           D、java
+ 9、表示提交表单的按钮是（     ）
+ A 、<input type=”submit”/>           B、<input type=”button”/>
+ C 、<input type=”reset”/>             D、<input type=”checkbox”/>
+
+10、JavaScript中字符串对象的charAt（）方法返回（      ）
+ A、返回第一次出现子字符串的位置
+ B、返回子串，传入的参数是起始位置和结束位置
+C、返回一个指定位置的字符
+D、返回子串，传入的参数是起始位置和子串的长度
+
+11、按照网页中常见的命名规范，网站首页面的名称通常命名为（   ）。
+ A、style.html
+
+ B、about_us.html
+
+ C、course.html
+
+ D、index.html
+
+ 二、问答题&程序题
+1.列举浏览器对象模型BOM里常用的至少4个对象，并列举window对象的常用方法至少5个 （10分）
+2.简述列举文档对象模型DOM里document的常用的查找访问节点的方法并做简单说明 （10分）
+3.对“hello world”进行翻转处理 要求变为："dlorw olleh" （10分）
+4.定义一个函数对象，使用变量要求有：该对象有名字、年龄、爱好多个。（10分）
+5、列举常见的表单控件，并描述其特点。
+6、使用JavaScript在网页上显示一个从10开始递减的倒计时，当减到0时停止倒计时。
